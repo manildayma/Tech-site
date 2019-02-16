@@ -15,16 +15,32 @@
 }
 .m1:hover {
   background-color: rgb(23, 42, 150);
+  font-weight: bold;
 }
 
 #link {
   text-decoration: none;
 }
 .why {
-  background: rgb(51, 68, 167);
+  background-image:url(./images/2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   color: azure;
   text-align: center;
-  padding: 0.5rem;
+  padding: 8px;
+}
+.readmore{
+    color: azure;
+    font-size: 1.5rem;
+    background: rgb(10, 134, 184);
+    padding: 10px;
+    padding-left: 15px; 
+    padding-right: 15px;
+    
+}
+.readmore:hover{
+    background: rgb(122, 204, 252);
 }
 .portfolio {
   color: rgb(23, 139, 139);
@@ -32,21 +48,18 @@
   padding: 0.5rem;
 }
 .remote {
-  background: rgb(51, 68, 167);
-  color: azure;
+    color: azure;
+  background: rgb(5, 66, 53);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   text-align: center;
   padding: 0.5rem;
 }
 footer {
-  background: rgb(39, 130, 248);
+  font-size: .85rem;
+  background: #2fcbe0;
   color: azure;
-  padding: 1rem;
-}
-.f1 {
-  padding: 10px;
-  text-align: left;
-}
-.f2 {
-  padding: 10px;
-  text-align: right;
+  padding: .5rem;
+  text-align: center;
 }
