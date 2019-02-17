@@ -10,30 +10,34 @@ body{
   text-align: center;
 }
 .menu {
-  background-color: rgb(9, 27, 129);
+  margin-left:auto;
+  margin-right:auto;
+  background-color: black;
   text-align: center;
-  padding: 2rem;
-  opacity: .7;
+  padding: 10px;
+  opacity: .5;
 }
 .ma{
-  background-color: rgb(72, 97, 236);
+  background-color: grey;
   color: rgb(28, 28, 34);
   padding-right: 10px;
-  font-family: "Courier New", Courier, monospace;
-  font-size: 35px;
-  padding: 2rem;
+  font-family: "Quicksand";
+  font-size: 20px;
+  padding: 10px;
   font-weight:bold;
+  border-radius: 10px;
 }
 .m1 {
   color: azure;
   padding-right: 10px;
   font-family: 'Quicksand';
-  font-size: 30px;
-  padding: 2rem;
+  font-size: 20px;
+  padding: 10px;
   font-weight:bold;
 }
 .m1:hover {
-  background-color: rgb(23, 42, 150);
+  background-color: rgb(125, 133, 179);
+  border-radius: 10px;
 }
 
 #techsite{
@@ -222,15 +226,15 @@ table{
 .about{
   font-size: 50px;
   margin-top: 0px;
-  background-color: rgb(2, 14, 85);
+  background-color: black;
   color: azure;
   text-align: center;
-  padding: 2rem;
+  padding: 1rem;
   opacity: .9;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: bolder;
-  padding-top: 3rem;
-  padding-bottom:3rem;
+  padding-top: 2rem;
+  padding-bottom:2rem;
   font-family: 'Quicksand';
 }
 .aboutmain{
@@ -250,7 +254,7 @@ table{
   padding:5px;
   color: azure;
   height:350px;
-  background: rgb(4, 18, 99);
+  background: rgb(5, 7, 22);
   font-family: 'Quicksand', sans-serif;
   width: 30%;
   float: left;
