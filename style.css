@@ -206,6 +206,7 @@ table{
   display:inline;
 }
 #div1{
+  padding:5px;
   color: azure;
   height:330px;
   background: rgb(4, 18, 99);
@@ -250,6 +251,7 @@ table{
 }
 
 .servp{
+  padding:10px;
   margin: 10px;
   font-weight: 100;
   font-size: 20px;
