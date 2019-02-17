@@ -104,7 +104,6 @@ body{
   padding-left: 80px;
   padding-right: 80px;
   opacity: .8;
-  margin-top: 400px;
   font-family: 'quicksand';
 }
 footer {
@@ -220,19 +219,6 @@ table{
   height: 100%;
   display:inline;
 }
-#div1{
-  padding:5px;
-  color: azure;
-  height:330px;
-  background: rgb(4, 18, 99);
-  font-family: 'Quicksand', sans-serif;
-  width: 30%;
-  float: left;
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-top: 20px;
-  
-}
 .about{
   font-size: 50px;
   margin-top: 0px;
@@ -259,20 +245,35 @@ table{
   font-family: 'Quicksand';
   font-size: 17px;  
 }
+
+#div1{
+  padding:5px;
+  color: azure;
+  height:350px;
+  background: rgb(4, 18, 99);
+  font-family: 'Quicksand', sans-serif;
+  width: 30%;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+  
+}
 .servh1{
   font-family: 'Quicksand';
   font-family: 'Quicksand';
-  padding-top: 20px;
+  padding-top: 15px;
   text-align: center;
   padding-left: 10px;
   margin-top: 15px;
-  height: 90px;
+  height: auto;
+
 }
 
 .servp{
   font-family: 'Quicksand';
   padding:10px;
-  margin: 10px;
+  margin: 5px;
   font-weight: 100;
-  font-size: 18px;
+  font-size: 17px;
 }
