@@ -58,9 +58,9 @@ body{
   opacity: .8;
 }
 .strengthpara{
-  padding-left: 5rem;
-  padding-right: 5rem;
-  padding-bottom: 1rem;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-bottom: 16px;
 }
 .why {
   font-family: 'Quicksand';
