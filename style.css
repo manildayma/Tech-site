@@ -13,6 +13,7 @@ body{
   background-color: rgb(16, 29, 105);
   text-align: center;
   padding: 2rem;
+  opacity: .7;
 }
 .m1 {
   color: azure;
@@ -32,24 +33,25 @@ body{
 .strength{
   text-align: center;
   background: white;
+  opacity: .8;
 }
 .why {
-   color: azure;
+  color: azure;
   text-align: center;
   padding: 8px;
+  height:250px;
 }
 .whyp{
   text-align: center;
   font-size: 25px;  
 }
 .readmore{
-    margin-top: 1rem;
     color: azure;
     font-size: 1.5rem;
     background: rgb(10, 134, 184);
-    padding: 10px;
-    padding-left: 25px; 
-    padding-right: 25px;
+    padding: 15px;
+    padding-left: 35px; 
+    padding-right: 35px;
     
 }
 .readmore:hover{
@@ -63,12 +65,13 @@ body{
 }
 .remote {
   color: azure;
-  background: rgb(5, 66, 53);
+  background: rgb(15, 73, 112);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
   padding: 0.5rem;
+  opacity: .8;
 }
 footer {
   font-size: .85rem;
