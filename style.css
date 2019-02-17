@@ -51,7 +51,10 @@ body{
   text-decoration: none;
 }
 .strength{
-  margin-top: 5px;
+  padding-top:.2rem;
+  padding-bottom:1rem;
+  padding-left: 5rem;
+  padding-right:5rem;
   text-align: center;
   background: white;
   opacity: .8;
@@ -96,6 +99,8 @@ body{
   opacity: .8;
 }
 footer {
+  height:50px; 
+  padding-top:10px;
   font-size: .85rem;
   background: #2fcbe0;
   color: azure;
