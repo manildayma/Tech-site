@@ -10,7 +10,7 @@ body{
   text-align: center;
 }
 .menu {
-  background-color: rgb(16, 29, 105);
+  background-color: rgb(9, 27, 129);
   text-align: center;
   padding: 2rem;
   opacity: .7;
@@ -21,11 +21,13 @@ body{
   font-family: "Courier New", Courier, monospace;
   font-size: 30px;
   padding: 2rem;
+  font-weight:bold;
 }
 .m1:hover {
   background-color: rgb(23, 42, 150);
   font-weight: bold;
 }
+
 #techsite{
   font-size:70px;
   font-weight:bold;
@@ -183,4 +185,17 @@ img {vertical-align: middle;}
   -webkit-animation-duration: 1.5s;
   animation-name: fade;
   animation-duration: 1.5s;
+}
+
+table{
+  background:white;
+  width: 100%;
+  height: 100%;
+  display:inline;
+}
+#div1{
+  color: azure;
+  width:auto;
+  height:auto;
+  background: rgb(4, 18, 99);
 }
