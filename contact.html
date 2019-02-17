@@ -1,23 +1,92 @@
+<!DOCTYPE html>
 <html>
-  <head>
-    <title>TechSITE/about</title>
-    
-  </head>
-  <link rel="stylesheet" href="style.css" />
-  <body >
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body { font-family: Arial, Helvetica, sans-serif;}
 
-    <nav class="menu">
-      <a id="link" href="index.html" class="m1"> HOME </a>
-      <a id="link" href="about.html" class="m1"> ABOUT US </a>
-      <a id="link" href="services.html" class="m1"> SERVICES </a>
-      <a id="link" href="career.html" class="m1"> CAREER </a>
-      <a id="link" href="contact.html" class="m1"> CONTACT </a>
+* {box-sizing: border-box;}
 
-    </nav>
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+input[type=submit]:hover { background-color: #45a049; }
 
-    <footer>
-      <span class="f1"> Copyright &copy; 2019, TechSITE </span>
-      <span class="f2"> Developed By : MANIL DAYMA </span>
-    </footer>
-  </body>
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+
+</head>
+<link rel="stylesheet" href="style.css" />
+<body>
+
+        <nav class="menu">
+                <a id="link" href="index.html" class="m1"> HOME </a>
+                <a id="link" href="about.html" class="m1"> ABOUT US </a>
+                <a id="link" href="services.html" class="m1"> SERVICES </a>
+                <a id="link" href="career.html" class="m1"> CAREER </a>
+                <a id="link" href="contact.html" class="ma"> CONTACT </a>
+          
+              </nav>
+
+<div class="container">
+  <div style="text-align:center">
+    <h2>Contact Us</h2>
+    <p>Swing by for a cup of coffee, or leave us a message :</p>
+  </div>
+  <div class="row">
+    <div class="column">
+      <form action="/action_page.php">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="india">India</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+        </select>
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+</div>
+<footer>
+        <span class="f1"> Copyright &copy; 2019, TechSITE </span>
+        <span class="f2"> Developed By : MANIL DAYMA </span>
+      </footer>
+</body>
 </html>

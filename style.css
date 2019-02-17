@@ -15,6 +15,15 @@ body{
   padding: 2rem;
   opacity: .7;
 }
+.ma{
+  background-color: rgb(72, 97, 236);
+  color: rgb(28, 28, 34);
+  padding-right: 10px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 35px;
+  padding: 2rem;
+  font-weight:bold;
+}
 .m1 {
   color: azure;
   padding-right: 10px;
@@ -25,7 +34,6 @@ body{
 }
 .m1:hover {
   background-color: rgb(23, 42, 150);
-  font-weight: bold;
 }
 
 #techsite{
