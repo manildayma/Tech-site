@@ -218,15 +218,25 @@ table{
   background: rgb(4, 18, 99);
 }
 .about{
-  background-color: rgb(9, 27, 129);
+  font-size: 50px;
+  margin-top: 0px;
+  background-color: rgb(2, 14, 85);
+  color: azure;
   text-align: center;
   padding: 2rem;
-  opacity: .7;
+  opacity: .9;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  padding-top: 3rem;
+  padding-bottom:3rem;
 }
 .aboutmain{
+  margin-top:-35px;
   background-color: white;
+  padding:2rem;
+  padding-left: 10rem;
+  padding-right: 10rem;
 }
 .aboutpara{
-
-  
+  font-size: 17px;  
 }
