@@ -37,13 +37,15 @@ body{
 }
 
 #techsite{
+  color: whitesmoke;
+
   font-size:70px;
   font-weight:bold;
   padding-left: 50px;
   padding-right:50px;
   padding:20px;
   text-align:center;
-  font-family: 'ZCOOL QingKe HuangYou', cursive;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 #link {
@@ -112,7 +114,9 @@ footer {
   clear: both;
   display: table;
 }
-
+.desc{
+  margin:5px;
+}
 
 .mySlides {display: none}
 img {vertical-align: middle;}
@@ -121,7 +125,7 @@ img {vertical-align: middle;}
 .slideshow-container {
   max-width: 1000px;
   position: relative;
-  margin: 15px;
+  margin: auto;
 }
 
 /* Next & previous buttons */
