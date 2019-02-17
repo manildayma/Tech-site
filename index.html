@@ -1,138 +1,137 @@
 <html>
-  <head>
-    <title>TechSITE</title>
-    
-  </head>
-  <link rel="stylesheet" href="style.css" />
-  <body >
 
-    <nav class="menu">
-      <a id="link" href="index.html" class="ma"> HOME </a>
-      <a id="link" href="about.html" class="m1"> ABOUT US </a>
-      <a id="link" href="services.html" class="m1"> SERVICES </a>
-      <a id="link" href="career.html" class="m1"> CAREER </a>
-      <a id="link" href="contact.html" class="m1"> CONTACT </a>
+<head>
+  <title>TechSITE</title>
 
-    </nav>
-   
-    <div>
-      <h1 id="techsite">T e c h S I T E</h1>
+</head>
+<link rel="stylesheet" href="style.css" />
+<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+
+<body>
+
+  <nav class="menu">
+    <a id="link" href="index.html" class="ma"> HOME </a>
+    <a id="link" href="about.html" class="m1"> ABOUT US </a>
+    <a id="link" href="services.html" class="m1"> SERVICES </a>
+    <a id="link" href="career.html" class="m1"> CAREER </a>
+    <a id="link" href="contact.html" class="m1"> CONTACT </a>
+
+  </nav>
+
+  <div>
+    <h1 id="techsite">T e c h S I T E</h1>
+  </div>
+
+  <div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="./images/5.jpg" style="width:100%">
+      <div class="text">Caption Text</div>
     </div>
 
-    <div class="slideshow-container">
-
-      <div class="mySlides fade">
-          <div class="numbertext">1 / 3</div>
-          <img src="./images/2.jpg" style="width:100%">
-          <div class="text">Caption Text</div>
-        </div>
-      
-        <div class="mySlides fade">
-          <div class="numbertext">2 / 3</div>
-          <img src="./image/1.jpg" style="width:100%">
-          <div class="text">Caption Two</div>
-        </div>
-      
-        
-        <div class="mySlides fade">
-          <div class="numbertext">3 / 3</div>
-          <img src="./image/3.jpg" style="width:100%">
-          <div class="text">Caption Three</div>
-        </div>
-        
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
-        
-        </div>
-        <br>
-        
-        <div style="text-align:center">
-          <span class="dot" onclick="currentSlide(1)"></span> 
-          <span class="dot" onclick="currentSlide(2)"></span> 
-          <span class="dot" onclick="currentSlide(3)"></span> 
-        </div>
-        
-        <script>
-        var slideIndex = 1;
-        showSlides(slideIndex);
-        
-        function plusSlides(n) {
-          showSlides(slideIndex += n);
-        }
-        
-        function currentSlide(n) {
-          showSlides(slideIndex = n);
-        }
-        
-        function showSlides(n) {
-          var i;
-          var slides = document.getElementsByClassName("mySlides");
-          var dots = document.getElementsByClassName("dot");
-          if (n > slides.length) {slideIndex = 1}    
-          if (n < 1) {slideIndex = slides.length}
-          for (i = 0; i < slides.length; i++) {
-              slides[i].style.display = "none";  
-          }
-          for (i = 0; i < dots.length; i++) {
-              dots[i].className = dots[i].className.replace(" active", "");
-          }
-          slides[slideIndex-1].style.display = "block";  
-          dots[slideIndex-1].className += " active";
-        }
-        </script>
-        
-   <div class="strength">
-        <h1>Our Strength</h1>
-        <p id="p1">Our strength lies in understanding the client's business processes, 
-          culture, vision and goals and offering client oriented solutions, 
-          which are highly dependable. We provide consulting and IT services to clients. 
-          With a mix of domain, technology & project management experts, 
-          we bring the most complete team to bear on every project we take on. 
-          Our experienced staffs of professionals have worked with a wide array of platforms, languages, 
-          and tools in the course of our various projects.</p>
-   </div>
-
-    <div class="why">
-      <h1>WHY TechSITE</h1>
-       <p class="whyp">At Genesis technologies, we offer comprehensive solutions at competitive prices.
-         We have qualified team of domain experts who helps 
-         clients to stand ahead in the competitive market place.</p>
-      <a class='readmore' id="link" href="services.html" >Read More</a>
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="./image/4.jpg" style="width:100%">
+      <div class="text">Caption Two</div>
     </div>
 
-    <div class="port">
-       <h1>PORTFOLIO</h1>
-       <p>TechSITE provides diversity of solutions</p>
 
-       <div class="row">
-          <div class="column">
-            <img src="./images/4.jpg"  style="height:220px">
-            <div class="desc">Add a description of the image here</div>
-          </div>
-          <div class="column">
-            <img src="./images/5.jpg"  style="height:220px">
-            <div class="desc">Add a description of the image here</div>
-          </div>
-          <div class="column">
-            <img src="./images/2.jpg"  style="height:220px">
-            <div class="desc">Add a description of the image here</div>
-          </div>
-        </div>
-
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="./image/h2.jpg" style="width:100%">
+      <div class="text">Caption Three</div>
     </div>
 
-    <div class="remote">
-      <h1>REMOTE SUPPORT</h1>
-      <p style="text-align:center">In order to ensure that the business
-         applications are up and running, it is important that the servers
-          are well maintained and the code is deployed on qa, staging and 
-          production environments by someone other than developers themselves.
-        </p>
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+  </div>
+  <br>
+
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+
+  <script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      if (n > slides.length) { slideIndex = 1 }
+      if (n < 1) { slideIndex = slides.length }
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].className += " active";
+    }
+  </script>
+
+  <div class="strength">
+    <h1>Our Strength</h1>
+    <p style="padding:1rem">Our strength lies in understanding the client's business processes, culture, vision and goals and offering client oriented
+      solutions, which are highly dependable. We provide consulting and IT services to clients. With a mix of domain, technology
+      & project management experts, we bring the most complete team to bear on every project we take on. Our experienced
+      staffs of professionals have worked with a wide array of platforms, languages, and tools in the course of our various
+      projects.</p>
+  </div>
+
+  <div class="why">
+    <h1>WHY TechSITE</h1>
+    <p class="whyp">At Genesis technologies, we offer comprehensive solutions at competitive prices. We have qualified team of domain experts
+      who helps clients to stand ahead in the competitive market place.</p>
+    <a class='readmore' id="link" href="services.html">Read More</a>
+  </div>
+
+  <div class="port">
+    <h1>PORTFOLIO</h1>
+    <p>TechSITE provides diversity of solutions</p>
+
+    <div class="row">
+      <div class="column">
+        <img src="./images/4.jpg" style="height:220px">
+        <div class="desc">Add a description of the image here</div>
+      </div>
+      <div class="column">
+        <img src="./images/5.jpg" style="height:220px">
+        <div class="desc">Add a description of the image here</div>
+      </div>
+      <div class="column">
+        <img src="./images/2.jpg" style="height:220px">
+        <div class="desc">Add a description of the image here</div>
+      </div>
     </div>
 
-    <footer>
-      <div> Copyright &copy; 2019, TechSITE </div>
-      <div> Developed By : Manil Dayma Development Team</div>
-    </footer>
-  </body>
+  </div>
+
+  <div class="remote">
+    <h1>REMOTE SUPPORT</h1>
+    <p style="text-align:center">In order to ensure that the business applications are up and running, it is important that the servers are well maintained
+      and the code is deployed on qa, staging and production environments by someone other than developers themselves.
+    </p>
+  </div>
+
+  <footer style="height:50px; padding-top:10px">
+    <div> Copyright &copy; 2019, TechSITE </div>
+    <div> Developed By : Manil Dayma Development Team</div>
+  </footer>
+</body>
+
 </html>
