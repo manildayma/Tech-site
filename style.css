@@ -38,7 +38,6 @@ body{
 
 #techsite{
   color: whitesmoke;
-
   font-size:70px;
   font-weight:bold;
   padding-left: 50px;
@@ -52,6 +51,7 @@ body{
   text-decoration: none;
 }
 .strength{
+  margin-top: 5px;
   text-align: center;
   background: white;
   opacity: .8;
@@ -77,6 +77,7 @@ body{
 }
 .readmore:hover{
     background: rgb(122, 204, 252);
+    transition-duration: .5s;
 }
 .port {
   height: 70%;
