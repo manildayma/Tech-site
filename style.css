@@ -26,6 +26,15 @@ body{
   background-color: rgb(23, 42, 150);
   font-weight: bold;
 }
+#techsite{
+  font-size:70px;
+  font-weight:bold;
+  padding-left: 50px;
+  padding-right:50px;
+  padding:20px;
+  text-align:center;
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
 
 #link {
   text-decoration: none;
